@@ -1,0 +1,117 @@
+@font-face {
+    font-family: OutfitRegular;
+    src: url(/public/assets/fonts/outfit/static/Outfit-Regular.ttf);
+ 
+}
+@font-face {
+    font-family: Youngserif-Regular;
+    src: url(/public/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: boldu;
+    src: url(/public/assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+*{
+    box-sizing: border-box;
+ 
+}
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family:OutfitRegular;
+    font-size: 12px;
+}
+
+.container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+img{
+       width:100%;
+       border-radius:20px;
+        object-fit: cover;
+        }
+}
+img{
+    width:100%;
+    border-radius:20px;
+     object-fit: cover;
+     padding:0;
+     }
+h4{
+    color: rgb(144, 35, 35);
+    font-size: 20px;
+    font-family: Youngserif-Regular;
+}
+h3{
+    color: rgb(159, 40, 131);
+    font-size: 20px;
+   
+}
+h1{
+    font-family: Youngserif-Regular;
+}
+
+
+.light-pink{
+    background-color: rgb(244, 236, 238);
+    border-radius: 10px;
+    padding: 5px;
+}
+.light-pink ul li{
+    padding: 8px;
+}
+hr{
+    border:1px solid rgb(211, 209, 209);;
+}
+span{
+    font-family: boldu;
+}
+ul {
+    list-style-type: disc;
+}
+
+ul li::marker {
+    color: rgb(144, 35, 35); /* Change this to your desired color */
+}
+ol li::marker {
+    color: rgb(144, 35, 35); /* Change this to your desired color */
+    font-family: boldu;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .custom-table tr:not(.last-row) {
+    border-bottom: 1px solid rgb(211, 209, 209); /* Adjust the color and width as needed */
+  }
+
+  .custom-table td {
+    padding: 8px; /* Adjust the padding as needed */
+    text-align: left; /* or right/center, based on your preference */
+  }
+.ingre ul li{
+    padding: 5px;
+}
+.instru ol li{
+    padding: 5px;
+}
+.nutri{
+padding: 5px;
+}
+.brown{
+    color: rgb(144, 35, 35);
+    font-family: boldu;
+}
+.attribution { font-size: 11px; text-align: center;padding-top: 5px; }
+.attribution Link { color: hsl(228, 45%, 44%); }
