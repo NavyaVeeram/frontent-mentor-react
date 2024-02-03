@@ -47,12 +47,12 @@ img{
      padding:0;
      }
 h4{
-    color: rgb(144, 35, 35);
+
     font-size: 20px;
     font-family: Youngserif-Regular;
 }
-h3{
-    color: rgb(159, 40, 131);
+.h3{
+    color: purple;
     font-size: 20px;
    
 }

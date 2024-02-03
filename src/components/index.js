@@ -16,13 +16,13 @@ const SimpleOmeletteRecipe = () => {
 </div>
 <div className="light-pink">
 <ul>
-  <h3>Preparation time</h3>
+  <h3 style={{color:'purple'}}>Preparation time</h3>
   <li><span>Total:</span> Approximately 10 minutes</li>
  <li> <span>Preparation:</span> 5 minutes</li>
  <li> <span>Cooking:</span> 5 minutes</li></ul>
 </div>
 <div className="pt-3 ingre">
-  <h4>Ingredients</h4>
+  <h4 style={{color:'brown'}}>Ingredients</h4>
 <ul>
   <li> 2-3 large eggs</li>
   <li> Salt, to taste</li>
@@ -31,7 +31,7 @@ const SimpleOmeletteRecipe = () => {
   <li> Optional fillings: cheese, diced vegetables, cooked meats, herbs</li></ul>
   </div>
 <hr />
-<div className="instru"><h4>
+<div className="instru"><h4  style={{color:'brown'}}>
   Instructions</h4>
 
  <ol><li><span> Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
@@ -53,7 +53,7 @@ const SimpleOmeletteRecipe = () => {
 </div>
 <hr />
 <div>
-  <h4 className="nutri">Nutrition</h4>
+  <h4 className="nutri" style={{color:'brown'}}>Nutrition</h4>
 
   The table below shows nutritional values per serving without the additional fillings.
 <table className="custom-table">
