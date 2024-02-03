@@ -82,7 +82,7 @@ const SimpleOmeletteRecipe = () => {
 </div>
   <div className="attribution">
     Challenge by <Link to="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</Link>. 
-    Coded by <Link to="#">Navya Veeram</Link>.
+    Coded by <Link to="https://github.com/NavyaVeeram/frontent-mentor-react">Navya Veeram</Link>.
   </div>
 </div>
   );
